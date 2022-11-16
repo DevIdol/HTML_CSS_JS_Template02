@@ -162,7 +162,7 @@ a:hover {
 
 .sec02-link {
   background-color: #f3f3f3;
-  padding: 114px 0 140px;
+  padding: 114px 0 102px;
 }
 
 .sec02-link .sec-title {
@@ -186,34 +186,46 @@ a:hover {
 }
 
 .sec02-link .sec02-content .learn-more {
-  padding-top: 31px;
-  font-size: 16px;
-  color: #ff8364;
-  font-weight: 700;
+  padding-top: 33px;
   text-align: start;
 }
 
-.sec02-link .learn-more::after {
-  content: ">";
-  font-size: 14px;
-  color: #fff;
-  background-color: #ff8364;
-  width: 8px;
-  padding: 0 2px 0px 3px;
-  text-align: center;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: 19px;
+.sec02-link .sec02-content .learn-more span {
+  font-size: 16px;
+  color: #ff8364;
+  padding-right: 19px;
 }
 
-/*iPad Screen Size
-======================
-*/
+.sec02-link .learn-more::after {
+  content: url('../img/img_left_arrow.png');
+}
+
+/*Third Link Section
+====================== */
+.sec03-link {
+  padding: 85px 0 0px;
+}
+
+.sec03-link .sec03-sub-ttl {
+  padding-top: 10px;
+  font-size: 25px;
+  color: #ff8364;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+/*======================
+    iPad Screen Size
+========================= */
 
 @media screen and (min-width: 768px) and (max-width: 1100px) {
-  .sec-inner{
-    max-width: 144.531vw;
+  .sec-inner {
+    width: 89.583vw;
   }
+
   .main-sec {
     padding: 4.688vw 0 15.234vw;
   }
@@ -320,52 +332,73 @@ a:hover {
   }
 
 
-/*Second Link Section(iPad-View)
-================================= */
+  /*Second Link Section(iPad-View)
+=================================== */
 
-.sec02-link {
-  padding: 14.844vw 0 18.229vw;
+  .sec02-link {
+    padding: 10.938vw 0 10.156vw;
+  }
+
+  .sec02-link .sec02-content {
+    text-align: center;
+  }
+
+  .sec02-link .sec02-content .sec02-desc {
+    float: none;
+    text-align: start;
+    width: 82.682vw;
+    padding-top: 4.427vw;
+  }
+
+  .sec02-link .sec02-content .sec02-desc p {
+    font-size: 4.688vw;
+    line-height: 1.4;
+  }
+
+  .sec02-link .sec02-content img {
+    margin-top: 9.245vw;
+    float: none;
+    width: 72.396vw;
+  }
+
+
+  .sec02-link .sec02-content .learn-more {
+    padding-top: 4.167vw;
+  }
+
+  .sec02-link .sec02-content .learn-more span {
+    font-size: 2.083vw;
+    padding-right: 2.474vw;
+  }
+
+  /*Third Link Section(iPad View)
+================================== */
+  .sec03-link {
+    height: 82.031vw;
+    background-color: #ccc;
+  }
+
+  .sec03-link .sec03-sub-ttl {
+    padding-top: 1.302vw;
+    font-size: 3.255vw;
+    letter-spacing: 0.13vw;
+  }
+
 }
 
-.sec02-link .sec02-content{
-  text-align: center;
-}
-
-.sec02-link .sec02-content .sec02-desc {
-  float: none;
-  width: 82.682vw;
-  padding-top: 4.297vw;
-}
-
-.sec02-link .sec02-content .sec02-desc p {
-  font-size: 4.688vw;
-  line-height: 1.4;
-}
-
-.sec02-link .sec02-content img {
-  float: none;
-  width: 72.396vw;
-}
-
-.sec02-link .sec02-content .learn-more {
-  padding-top: 4.036vw;
-  font-size: 2.083vw;
-}
-
-.sec02-link .learn-more::after {
-  font-size: 1.823vw;
-  width: 1.042vw;
-  padding: 0 0.26vw 0 0.391vw;
-  margin-left: 2.474vw;
-}
-
-}
-
-/*Mobile Screen Size
-======================
-*/
+/*======================
+    Mobile Screen Size
+========================= */
 
 @media screen and (max-width: 767.9px) {
+  .mb-view {
+    display: block;
+  }
+
+  .sec-inner {
+    width: 90.625vw;
+  }
+
   .main-sec {
     padding: 5.625vw 0 14.063vw;
   }
@@ -477,11 +510,63 @@ a:hover {
     display: none;
   }
 
-  .main-sec .main-content .mb-view {
-    display: block;
-  }
-
   .main-sec .main-content a {
     margin-top: 2.031vw;
   }
+
+  /*Second Link Section(Mobile-View)
+===================================== */
+
+
+  .sec02-link {
+    padding: 6.406vw 0 9.063vw;
+  }
+
+  .sec02-link .sec02-content {
+    text-align: center;
+  }
+
+  .sec02-link .sec02-content .sec02-desc {
+    float: none;
+    text-align: start;
+    width: 90.625vw;
+    padding-top: 4.063vw;
+  }
+
+  .sec02-link .sec02-content .sec02-desc p {
+    font-size: 3.906vw;
+    line-height: 2;
+  }
+
+  .sec02-link .sec02-content img {
+    margin-top: 8.906vw;
+    float: none;
+    width: 86.875vw;
+  }
+
+
+  .sec02-link .sec02-content .learn-more {
+    padding-top: 2.031vw;
+  }
+
+  .sec02-link .sec02-content .learn-more span {
+    font-size: 2.344vw;
+    letter-spacing: 0.156vw;
+    padding-right: 2.344vw;
+  }
+
+  /*Third Link Section(Mobile View)
+=================================== */
+  .sec03-link {
+    height: 606px;
+    background-color: #ccc;
+    padding: 66px 0 1px;
+  }
+
+  .sec03-link .sec03-sub-ttl {
+    padding-top: 20px;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
 }
