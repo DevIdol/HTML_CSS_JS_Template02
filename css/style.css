@@ -51,6 +51,7 @@ a:hover {
 }
 
 .header-inner {
+  position: relative;
   width: 98%;
   margin: 0 auto;
   max-width: 1360px;
@@ -81,7 +82,7 @@ a:hover {
 
 .sec-title {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -156,11 +157,63 @@ a:hover {
   margin-top: 26px;
 }
 
+/*Second Link Section
+======================= */
+
+.sec02-link {
+  background-color: #f3f3f3;
+  padding: 114px 0 140px;
+}
+
+.sec02-link .sec-title {
+  text-align: start;
+}
+
+.sec02-link .sec02-content .sec02-desc {
+  float: left;
+  width: 635px;
+  padding-top: 33px;
+}
+
+.sec02-link .sec02-content .sec02-desc p {
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.sec02-link .sec02-content img {
+  float: right;
+  margin-top: -14px;
+}
+
+.sec02-link .sec02-content .learn-more {
+  padding-top: 31px;
+  font-size: 16px;
+  color: #ff8364;
+  font-weight: 700;
+  text-align: start;
+}
+
+.sec02-link .learn-more::after {
+  content: ">";
+  font-size: 14px;
+  color: #fff;
+  background-color: #ff8364;
+  width: 8px;
+  padding: 0 2px 0px 3px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 19px;
+}
+
 /*iPad Screen Size
 ======================
 */
 
 @media screen and (min-width: 768px) and (max-width: 1100px) {
+  .sec-inner{
+    max-width: 144.531vw;
+  }
   .main-sec {
     padding: 4.688vw 0 15.234vw;
   }
@@ -170,8 +223,8 @@ a:hover {
   }
 
   .main-sec .header-inner {
-    width: 100%;
     max-width: 89.583vw;
+    width: 100%;
   }
 
   .main-sec .g-nav {
@@ -202,18 +255,18 @@ a:hover {
   }
 
   .main-sec .menu-toggle {
-    position: fixed;
-    width: 5.469vw;
+    position: absolute;
+    width: 5.599vw;
     height: 4.167vw;
-    top: 5.208vw;
-    right: 5.078vw;
+    top: 0.521vw;
+    right: -1.4px;
     cursor: pointer;
   }
 
   .main-sec .menu-toggle span {
     position: absolute;
     background-color: #141414;
-    width: 5.469vw;
+    width: 5.599vw;
     height: 0.391vw;
     transition: 0.8s ease;
   }
@@ -265,6 +318,47 @@ a:hover {
   .main-sec .main-content a {
     margin-top: 3.385vw;
   }
+
+
+/*Second Link Section(iPad-View)
+================================= */
+
+.sec02-link {
+  padding: 14.844vw 0 18.229vw;
+}
+
+.sec02-link .sec02-content{
+  text-align: center;
+}
+
+.sec02-link .sec02-content .sec02-desc {
+  float: none;
+  width: 82.682vw;
+  padding-top: 4.297vw;
+}
+
+.sec02-link .sec02-content .sec02-desc p {
+  font-size: 4.688vw;
+  line-height: 1.4;
+}
+
+.sec02-link .sec02-content img {
+  float: none;
+  width: 72.396vw;
+}
+
+.sec02-link .sec02-content .learn-more {
+  padding-top: 4.036vw;
+  font-size: 2.083vw;
+}
+
+.sec02-link .learn-more::after {
+  font-size: 1.823vw;
+  width: 1.042vw;
+  padding: 0 0.26vw 0 0.391vw;
+  margin-left: 2.474vw;
+}
+
 }
 
 /*Mobile Screen Size
@@ -281,8 +375,8 @@ a:hover {
   }
 
   .main-sec .header-inner {
-    width: 100%;
     max-width: 90.625vw;
+    width: 100%;
   }
 
   .main-sec .g-nav {
@@ -313,18 +407,18 @@ a:hover {
   }
 
   .main-sec .menu-toggle {
-    position: fixed;
-    width: 6.563vw;
+    position: absolute;
+    width: 43px;
     height: 5.156vw;
-    top: 6.25vw;
-    right: 4.063vw;
+    top: 4px;
+    right: -4.5px;
     cursor: pointer;
   }
 
   .main-sec .menu-toggle span {
     position: absolute;
     background-color: #141414;
-    width: 6.563vw;
+    width: 43px;
     height: 0.469vw;
     transition: 0.8s ease;
   }
