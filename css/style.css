@@ -259,7 +259,7 @@ a:hover {
     width: 5.599vw;
     height: 4.167vw;
     top: 0.521vw;
-    right: -1.4px;
+    right: -0.182vw;
     cursor: pointer;
   }
 
@@ -408,17 +408,17 @@ a:hover {
 
   .main-sec .menu-toggle {
     position: absolute;
-    width: 43px;
+    width: 6.719vw;
     height: 5.156vw;
-    top: 4px;
-    right: -4.5px;
+    top: 0.625vw;
+    right: -0.703vw;
     cursor: pointer;
   }
 
   .main-sec .menu-toggle span {
     position: absolute;
     background-color: #141414;
-    width: 43px;
+    width: 6.719vw;
     height: 0.469vw;
     transition: 0.8s ease;
   }
