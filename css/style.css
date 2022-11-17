@@ -304,6 +304,57 @@ a:hover {
   font-weight: 700;
 }
 
+/* Fith Link Section
+===================== */
+.sec05-link {
+  padding: 84px 0 80px;
+  background-color: #fcfcfc;
+  text-align: center;
+}
+
+.sec05-link .sec05-list {
+  padding-top: 57px;
+}
+
+.sec05-link .sec05-list li {
+  float: left;
+  width: 350px;
+  margin: 0 30px 30px 0;
+}
+
+.sec05-link .sec05-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.sec05-link .sec05-desc {
+  padding-top: 18px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #616161;
+}
+
+.sec05-link .sec05-name {
+  padding-top: 58px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sec05-link .sec05-name::before {
+  content: "";
+  display: block;
+  background-color: #ff8364;
+  width: 65px;
+  height: 4px;
+  margin: 0 auto;
+  position: relative;
+  top: -14px;
+}
+
+.sec05-link .sec05-position {
+  padding-top: 5px;
+  color: #616161;
+}
+
 /*======================
     iPad Screen Size
 ========================= */
@@ -567,6 +618,63 @@ a:hover {
     padding-top: 0.651vw;
     font-size: 2.083vw;
     font-weight: 700;
+  }
+
+  /* Fith Link Section
+===================== */
+  .sec05-link {
+    padding: 10.938vw 0 10.417vw;
+  }
+
+  .sec05-link .sec05-list {
+    padding-top: 4.818vw;
+  }
+
+  .sec05-link .sec05-list li {
+    float: left;
+    width: 42.188vw;
+    margin-right: 5.208vw;
+    margin-bottom: 6.901vw;
+  }
+
+  .sec05-link .sec05-list li img {
+    width: 10.417vw;
+  }
+
+
+  .sec05-link .sec05-list li:nth-child(2) {
+    width: 42.057vw;
+    margin-right: 0;
+  }
+
+  .sec05-link .sec05-list li:nth-child(3) {
+    width: 44.792vw;
+  }
+
+  .sec05-link .sec05-desc {
+    padding-top: 2.474vw;
+    font-size: 2.344vw;
+    line-height: 1.7;
+  }
+
+  .sec05-link .sec05-name {
+    padding-top: 7.552vw;
+    font-size: 2.604vw;
+    font-weight: 700;
+  }
+
+  .sec05-pc {
+    padding-top: 3.516vw !important;
+  }
+
+  .sec05-link .sec05-name::before {
+    width: 8.464vw;
+    height: 0.521vw;
+    top: -1.823vw;
+  }
+
+  .sec05-link .sec05-position {
+    padding-top: 0.651vw;
   }
 }
 
@@ -849,5 +957,51 @@ a:hover {
     padding-top: 0.781vw;
     font-size: 2.5vw;
     font-weight: 700;
+  }
+
+  /* Fith Link Section
+======================== */
+  .sec05-link {
+    padding: 10.313vw 0 12.5vw;
+  }
+
+  .sec05-link .sec05-list {
+    padding-top: 5.469vw;
+  }
+
+  .sec05-link .sec05-list li {
+    float: none;
+    width: 69.688vw;
+    margin: 0 auto;
+    margin-bottom: 9.844vw;
+  }
+
+  .sec05-link .sec05-list li img {
+    width: 12.5vw;
+  }
+
+  .sec05-link .sec05-list li:nth-child(3) {
+    margin: 0 auto;
+  }
+
+  .sec05-link .sec05-desc {
+    padding-top: 2.813vw;
+    font-size: 2.813vw;
+  }
+
+  .sec05-link .sec05-name {
+    padding-top: 7.656vw;
+    font-size: 3.125vw;
+    font-weight: 700;
+  }
+
+  .sec05-link .sec05-name::before {
+    width: 10.156vw;
+    height: 0.625vw;
+    top: -2.188vw;
+  }
+
+  .sec05-link .sec05-position {
+    padding-top: 0.781vw;
   }
 }
