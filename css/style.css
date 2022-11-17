@@ -131,6 +131,10 @@ a:hover {
   margin: 0 auto;
 }
 
+.main-content img {
+  width: 58px;
+}
+
 .main-sec .main-content .main-title {
   padding-top: 35px;
   line-height: 1.2;
@@ -197,13 +201,19 @@ a:hover {
 }
 
 .sec02-link .learn-more::after {
-  content: url('../img/img_left_arrow.png');
+  content: "";
+  background-image: url("../img/img_left_arrow.png");
+  background-size: contain;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
 }
 
 /*Third Link Section
 ====================== */
 .sec03-link {
-  padding: 85px 0 0px;
+  padding: 85px 0 81px;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .sec03-link .sec03-sub-ttl {
@@ -216,18 +226,115 @@ a:hover {
   letter-spacing: 1px;
 }
 
+.sec03-link .sec03-list {
+  padding-top: 30px;
+  width: 955px;
+  margin: 0 auto;
+}
+
+.sec03-link .sec03-list li {
+  float: left;
+  width: 473px;
+  margin-right: 57px;
+  margin-top: 4px;
+}
+
+.sec03-link .sec03-list li:nth-child(2n) {
+  margin-right: 0;
+  width: 425px;
+}
+
+.sec03-link .sec03-list li p {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 65px;
+  text-transform: capitalize;
+  line-height: 1.3;
+}
+
+.sec03-link .sec03-list li::before {
+  content: "";
+  background-image: url("../img/img_start.png");
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 40px;
+}
+
+/*Fourth Link Section
+====================== */
+.sec04-link {
+  padding: 86px 0 80px;
+}
+
+.sec04-link .sec04-list {
+  padding-top: 48px;
+}
+
+.sec04-link .sec04-list li {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+  padding-bottom: 34px;
+}
+
+.sec04-link .sec04-list li img {
+  width: 255px;
+}
+
+.sec04-link .sec04-list li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.sec04-link .sec04-list li .sec04-txt01 {
+  color: #616161;
+  padding-top: 37px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.sec04-link .sec04-list li .sec04-txt02 {
+  padding-top: 5px;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
 
 /*======================
     iPad Screen Size
 ========================= */
 
 @media screen and (min-width: 768px) and (max-width: 1100px) {
+  body {
+    font-size: 2.083vw;
+    max-width: 250vw;
+  }
+
+  .sec-btn {
+    width: 18.229vw;
+    padding: 1.302vw 0;
+    font-size: 2.344vw;
+    border-radius: 1.042vw;
+  }
+
+  .sec-btn:hover {
+    border: 0.13vw solid #ff8364;
+  }
+
   .sec-inner {
     width: 89.583vw;
   }
 
+  .sec-title {
+    font-size: 5.208vw;
+  }
+
   .main-sec {
-    padding: 4.688vw 0 15.234vw;
+    padding: 4.688vw 0 15.365vw;
   }
 
   .main-sec .header-logo {
@@ -264,6 +371,10 @@ a:hover {
     float: none;
     margin: 0 auto;
     margin-top: 2.214vw;
+    width: 15.625vw;
+    padding: 1.042vw 0;
+    border-radius: 0.521vw;
+    font-size: 1.823vw;
   }
 
   .main-sec .menu-toggle {
@@ -317,6 +428,10 @@ a:hover {
     padding-top: 13.802vw;
   }
 
+  .main-content img {
+    width: 7.552vw;
+  }
+
   .main-sec .main-content .main-title {
     padding-top: 4.557vw;
     font-size: 8.333vw;
@@ -330,7 +445,6 @@ a:hover {
   .main-sec .main-content a {
     margin-top: 3.385vw;
   }
-
 
   /*Second Link Section(iPad-View)
 =================================== */
@@ -361,9 +475,8 @@ a:hover {
     width: 72.396vw;
   }
 
-
   .sec02-link .sec02-content .learn-more {
-    padding-top: 4.167vw;
+    padding-top: 3.906vw;
   }
 
   .sec02-link .sec02-content .learn-more span {
@@ -371,11 +484,16 @@ a:hover {
     padding-right: 2.474vw;
   }
 
+  .sec02-link .learn-more::after {
+    width: 1.823vw;
+    height: 1.823vw;
+  }
+
   /*Third Link Section(iPad View)
 ================================== */
   .sec03-link {
-    height: 82.031vw;
-    background-color: #ccc;
+    padding: 11.458vw 0 10.677vw;
+    border-bottom: 0.13vw solid #d9d9d9;
   }
 
   .sec03-link .sec03-sub-ttl {
@@ -384,6 +502,72 @@ a:hover {
     letter-spacing: 0.13vw;
   }
 
+  .sec03-link .sec03-list {
+    padding-top: 2.604vw;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .sec03-link .sec03-list li {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .sec03-link .sec03-list li:nth-child(2n) {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .sec03-link .sec03-list li p {
+    font-size: 2.604vw;
+    font-weight: 700;
+    padding-left: 8.464vw;
+    line-height: 1.3;
+  }
+
+  .sec03-link .sec03-list li::before {
+    width: 5.208vw;
+    height: 5.208vw;
+    top: 5.208vw;
+  }
+
+  /*Fourth Link Section
+======================== */
+  .sec04-link {
+    padding: 11.328vw 0 5.339vw;
+  }
+
+  .sec04-link .sec04-list {
+    width: 71.615vw;
+    margin: 0 auto;
+    padding-top: 4.557vw;
+  }
+
+  .sec04-link .sec04-list li {
+    border-radius: 1.042vw;
+    padding-bottom: 4.427vw;
+    margin: 0 5.208vw 5.078vw 0;
+  }
+
+  .sec04-link .sec04-list li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .sec04-link .sec04-list li img {
+    width: 33.203vw;
+  }
+
+  .sec04-link .sec04-list li .sec04-txt01 {
+    padding-top: 4.818vw;
+    font-size: 1.563vw;
+  }
+
+  .sec04-link .sec04-list li .sec04-txt02 {
+    padding-top: 0.651vw;
+    font-size: 2.083vw;
+    font-weight: 700;
+  }
 }
 
 /*======================
@@ -391,12 +575,34 @@ a:hover {
 ========================= */
 
 @media screen and (max-width: 767.9px) {
+  body {
+    font-size: 2.5vw;
+    max-width: 300vw;
+  }
+
+  .sec-btn {
+    width: 21.875vw;
+    padding: 1.563vw 0;
+    font-size: 2.813vw;
+    border-radius: 1.25vw;
+    border: 0.156vw solid transparent;
+  }
+
+  .sec-btn:hover {
+    border: 0.156vw solid #ff8364;
+  }
+
   .mb-view {
     display: block;
   }
 
+  .sec-title {
+    font-size: 6.25vw;
+  }
+
   .sec-inner {
-    width: 90.625vw;
+    width: 100%;
+    max-width: 90.625vw;
   }
 
   .main-sec {
@@ -437,6 +643,10 @@ a:hover {
     float: none;
     margin: 0 auto;
     margin-top: 2.656vw;
+    width: 18.75vw;
+    padding: 1.25vw 0;
+    border-radius: 0.625vw;
+    font-size: 2.188vw;
   }
 
   .main-sec .menu-toggle {
@@ -490,6 +700,10 @@ a:hover {
     padding-top: 13.281vw;
   }
 
+  .main-content img {
+    width: 9.063vw;
+  }
+
   .main-sec .main-content .main-title {
     padding-top: 2.813vw;
     font-size: 7.031vw;
@@ -517,9 +731,8 @@ a:hover {
   /*Second Link Section(Mobile-View)
 ===================================== */
 
-
   .sec02-link {
-    padding: 6.406vw 0 9.063vw;
+    padding: 6.563vw 0 9.063vw;
   }
 
   .sec02-link .sec02-content {
@@ -539,11 +752,10 @@ a:hover {
   }
 
   .sec02-link .sec02-content img {
-    margin-top: 8.906vw;
+    margin-top: 8.594vw;
     float: none;
     width: 86.875vw;
   }
-
 
   .sec02-link .sec02-content .learn-more {
     padding-top: 2.031vw;
@@ -555,18 +767,87 @@ a:hover {
     padding-right: 2.344vw;
   }
 
+  .sec02-link .learn-more::after {
+    width: 2.188vw;
+    height: 2.188vw;
+  }
+
   /*Third Link Section(Mobile View)
 =================================== */
   .sec03-link {
-    height: 606px;
-    background-color: #ccc;
-    padding: 66px 0 1px;
+    padding: 10.625vw 0 9.844vw;
+    border-bottom: 0.156vw solid #d9d9d9;
   }
 
   .sec03-link .sec03-sub-ttl {
-    padding-top: 20px;
-    font-size: 25px;
-    letter-spacing: 1px;
+    padding-top: 3.125vw;
+    font-size: 3.906vw;
+    letter-spacing: 0.156vw;
   }
 
+  .sec03-link .sec03-list {
+    padding-top: 2.813vw;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .sec03-link .sec03-list li {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .sec03-link .sec03-list li:nth-child(2n) {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .sec03-link .sec03-list li p {
+    font-size: 2.813vw;
+    padding-left: 10.156vw;
+    line-height: 1.5;
+  }
+
+  .sec03-link .sec03-list li::before {
+    width: 6.25vw;
+    height: 6.25vw;
+    top: 6.25vw;
+  }
+
+  /*Fourth Link Section
+======================== */
+  .sec04-link {
+    padding: 10.469vw 0 3.281vw;
+  }
+
+  .sec04-link .sec04-list {
+    width: 85.938vw;
+    margin: 0 auto;
+    padding-top: 5.469vw;
+  }
+
+  .sec04-link .sec04-list li {
+    border-radius: 1.094vw;
+    padding-bottom: 5.313vw;
+    margin: 0 6.25vw 6.094vw 0;
+  }
+
+  .sec04-link .sec04-list li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .sec04-link .sec04-list li img {
+    width: 39.844vw;
+  }
+
+  .sec04-link .sec04-list li .sec04-txt01 {
+    padding-top: 5.781vw;
+    font-size: 1.875vw;
+  }
+
+  .sec04-link .sec04-list li .sec04-txt02 {
+    padding-top: 0.781vw;
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
 }
