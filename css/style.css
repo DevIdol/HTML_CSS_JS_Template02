@@ -23,6 +23,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   max-width: 1920px;
+  margin: 0 auto;
 }
 
 img {
@@ -154,6 +155,7 @@ a:hover {
   padding-top: 6px;
   font-size: 20px;
   line-height: 1.5;
+  color: #efefef;
 }
 
 .main-sec .main-content a {
@@ -193,27 +195,30 @@ a:hover {
   padding-top: 33px;
   text-align: start;
   display: inline-block;
+  position: relative;
+  letter-spacing: 0.7px;
 }
 
 .sec02-link .sec02-content .learn-more span {
   font-size: 16px;
   color: #ff8364;
-  padding-right: 19px;
+  padding-right: 12px;
 }
 
 .sec02-link .learn-more::after {
   content: "";
   background-image: url("../img/img_left_arrow.png");
   background-size: contain;
-  display: inline-block;
+  background-repeat: no-repeat;
   width: 14px;
   height: 14px;
+  position: absolute;
 }
 
 /*Third Link Section
 ====================== */
 .sec03-link {
-  padding: 85px 0 81px;
+  padding: 85px 0 33px;
   border-bottom: 1px solid #d9d9d9;
 }
 
@@ -228,40 +233,37 @@ a:hover {
 }
 
 .sec03-link .sec03-list {
-  padding-top: 30px;
+  padding-top: 75px;
   width: 955px;
   margin: 0 auto;
 }
 
 .sec03-link .sec03-list li {
+  position: relative;
+  left: 65px;
   float: left;
-  width: 473px;
-  margin-right: 57px;
-  margin-top: 4px;
+  width: 395px;
+  margin-right: 135px;
+  margin-bottom: 47px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.3;
 }
 
 .sec03-link .sec03-list li:nth-child(2n) {
   margin-right: 0;
-  width: 425px;
-}
-
-.sec03-link .sec03-list li p {
-  font-size: 20px;
-  font-weight: 700;
-  padding-left: 65px;
-  text-transform: capitalize;
-  line-height: 1.3;
+  width: 370px;
 }
 
 .sec03-link .sec03-list li::before {
   content: "";
   background-image: url("../img/img_start.png");
   background-size: contain;
-  display: inline-block;
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 40px;
+  position: absolute;
+  left: -65px;
 }
 
 /*Fourth Link Section
@@ -271,20 +273,22 @@ a:hover {
 }
 
 .sec04-link .sec04-list {
+  width: 77.083vw;
   padding-top: 48px;
+  margin: 0 auto;
 }
 
 .sec04-link .sec04-list li {
   background-color: #f3f3f3;
   border-radius: 8px;
   float: left;
-  margin-right: 30px;
+  margin-right: 2.083vw;
   text-align: center;
   padding-bottom: 34px;
 }
 
 .sec04-link .sec04-list li img {
-  width: 255px;
+  width: 17.708vw;
 }
 
 .sec04-link .sec04-list li:nth-child(4n) {
@@ -295,6 +299,7 @@ a:hover {
   color: #616161;
   padding-top: 37px;
   font-size: 12px;
+  letter-spacing: 0.6px;
   text-transform: uppercase;
 }
 
@@ -308,20 +313,21 @@ a:hover {
 /* Fith Link Section
 ===================== */
 .sec05-link {
-  padding: 84px 0 100px;
+  padding: 84px 0 50px;
   background-color: #fcfcfc;
   text-align: center;
-  border-bottom: 1px solid #d9d9d9;
 }
 
 .sec05-link .sec05-list {
-  padding: 57px 0 80px 0;
+  width: 77.083vw;
+  padding-top: 57px;
+  margin: 0 auto;
 }
 
 .sec05-link .sec05-list li {
   float: left;
-  width: 350px;
-  margin: 0 30px 30px 0;
+  width: 24.306vw;
+  margin: 0 2.083vw 2.083vw 0;
 }
 
 .sec05-link .sec05-list li:nth-child(3n) {
@@ -330,7 +336,7 @@ a:hover {
 
 .sec05-link .sec05-desc {
   padding-top: 18px;
-  font-size: 18px;
+  font-size: 1.25vw;
   line-height: 1.7;
   color: #616161;
 }
@@ -359,26 +365,27 @@ a:hover {
 
 /*Map and Feedback
 =================== */
-.sec05-info {
-  padding-top: 70px;
+.feedback {
+  padding: 101px 0 99px;
+  border-bottom: 1px solid #d9d9d9;
 }
 
-.sec05-info .map-wrapper {
+.feedback .map-wrapper {
   position: relative;
   float: left;
 }
 
-.sec05-info .map-wrapper iframe {
+.feedback .map-wrapper iframe {
   width: 605px;
   height: 490px;
   border-radius: 8px;
 }
 
-.sec05-info .map-wrapper .contact {
+.feedback .map-wrapper .contact {
   position: absolute;
   background-color: #ffffff;
   width: 545px;
-  padding: 32px 30px;
+  padding: 34px 30px;
   border-radius: 8px;
   left: 30px;
   right: 30px;
@@ -401,13 +408,13 @@ a:hover {
   padding-top: 2px;
 }
 
-.sec05-info .contact-left {
+.feedback .contact-left {
   float: left;
   width: 225px;
   text-align: start;
 }
 
-.sec05-info .contact-right {
+.feedback .contact-right {
   float: right;
   width: 225px;
   text-align: start;
@@ -422,8 +429,7 @@ a:hover {
 }
 
 .feedback-wrapper {
-  padding-top: 19px;
-
+  padding-top: 17px;
   float: right;
   width: 445px;
   text-align: start;
@@ -445,7 +451,9 @@ a:hover {
 }
 
 .feedback-wrapper form input,
-.feedback-wrapper form input:focus {
+.feedback-wrapper form textarea,
+.feedback-wrapper form input:focus,
+.feedback-wrapper form textarea {
   width: 313px;
   margin-bottom: 32px;
   font-family: "IBM Plex Sans";
@@ -456,6 +464,11 @@ a:hover {
   font-size: 16px;
   border-radius: 8px;
   display: block;
+  resize: none;
+}
+
+.feedback-wrapper form textarea {
+  height: 36px;
 }
 
 .feedback-wrapper form button {
@@ -526,7 +539,6 @@ a:hover {
 @media screen and (min-width: 768px) and (max-width: 1100px) {
   body {
     font-size: 2.083vw;
-    max-width: 250vw;
   }
 
   .sec-btn {
@@ -564,11 +576,12 @@ a:hover {
   .main-sec .g-nav {
     float: none;
     padding: 12.5vw 0 4.688vw;
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: #ffffffe6;
     position: fixed;
     top: -127.604vw;
     left: 0;
     right: 0;
+    z-index: 99;
   }
 
   .main-sec .g-nav ul {
@@ -597,8 +610,9 @@ a:hover {
     width: 5.599vw;
     height: 4.167vw;
     top: 0.521vw;
-    right: -0.182vw;
+    right: -1px;
     cursor: pointer;
+    z-index: 99;
   }
 
   .main-sec .menu-toggle span {
@@ -623,19 +637,25 @@ a:hover {
   }
 
   .main-sec .menu-toggle.active {
+    position: fixed;
     transform: rotate(180deg);
     transition: 0.8s ease;
   }
 
   .main-sec .menu-toggle.active span:nth-child(1) {
+    top: -37px;
+    right: -44px;
     transform: translateY(1.953vw) rotate(-45deg);
   }
 
   .main-sec .menu-toggle.active span:nth-child(2) {
     opacity: 0;
+    transition: none;
   }
 
   .main-sec .menu-toggle.active span:nth-child(3) {
+    top: -7px;
+    right: -43px;
     transform: translateY(-1.953vw) rotate(45deg);
   }
 
@@ -665,7 +685,7 @@ a:hover {
 =================================== */
 
   .sec02-link {
-    padding: 10.938vw 0 10.156vw;
+    padding: 11.068vw 0 10.156vw;
   }
 
   .sec02-link .sec02-content {
@@ -681,7 +701,7 @@ a:hover {
 
   .sec02-link .sec02-content .sec02-desc p {
     font-size: 4.688vw;
-    line-height: 1.4;
+    line-height: 1.38;
   }
 
   .sec02-link .sec02-content img {
@@ -691,12 +711,13 @@ a:hover {
   }
 
   .sec02-link .sec02-content .learn-more {
-    padding-top: 3.906vw;
+    padding-top: 4.167vw;
+    letter-spacing: 0.091vw;
   }
 
   .sec02-link .sec02-content .learn-more span {
     font-size: 2.083vw;
-    padding-right: 2.474vw;
+    padding-right: 1.563vw;
   }
 
   .sec02-link .learn-more::after {
@@ -704,11 +725,10 @@ a:hover {
     height: 1.823vw;
   }
 
-  /*Third Link Section(iPad View)
-================================== */
+  /*Third Link Section
+====================== */
   .sec03-link {
-    padding: 11.458vw 0 10.677vw;
-    border-bottom: 0.13vw solid #d9d9d9;
+    padding: 11.458vw 0 3.646vw;
   }
 
   .sec03-link .sec03-sub-ttl {
@@ -718,33 +738,30 @@ a:hover {
   }
 
   .sec03-link .sec03-list {
-    padding-top: 2.604vw;
-    width: 100%;
-    margin: 0 auto;
+    padding-top: 8.203vw;
+    width: 89.583vw;
   }
 
   .sec03-link .sec03-list li {
+    left: 8.464vw;
     float: none;
-    width: 100%;
+    width: 90%;
     margin: 0;
+    margin-bottom: 6.38vw;
+    font-size: 2.604vw;
+    line-height: 1.1;
   }
 
   .sec03-link .sec03-list li:nth-child(2n) {
     margin-right: 0;
-    width: 100%;
-  }
-
-  .sec03-link .sec03-list li p {
-    font-size: 2.604vw;
-    font-weight: 700;
-    padding-left: 8.464vw;
-    line-height: 1.3;
+    width: 90%;
   }
 
   .sec03-link .sec03-list li::before {
     width: 5.208vw;
     height: 5.208vw;
-    top: 5.208vw;
+    top: -1.042vw;
+    left: -8.464vw;
   }
 
   /*Fourth Link Section
@@ -776,6 +793,7 @@ a:hover {
   .sec04-link .sec04-list li .sec04-txt01 {
     padding-top: 4.818vw;
     font-size: 1.563vw;
+    letter-spacing: 0.078vw;
   }
 
   .sec04-link .sec04-list li .sec04-txt02 {
@@ -787,10 +805,11 @@ a:hover {
   /* Fith Link Section
 ===================== */
   .sec05-link {
-    padding: 10.938vw 0 10.417vw;
+    padding: 10.938vw 0 3.646vw;
   }
 
   .sec05-link .sec05-list {
+    width: 100%;
     padding-top: 4.818vw;
   }
 
@@ -842,17 +861,18 @@ a:hover {
 
   /*Map and Feedback
   =================== */
-  .sec05-info {
-    padding-top: 3.646vw;
+  .feedback {
+    padding: 10.286vw 0 10.547vw;
+    border-bottom: 0.13vw solid #d9d9d9;
   }
 
-  .sec05-info .map-wrapper iframe {
+  .feedback .map-wrapper iframe {
     width: 44.792vw;
     height: 63.802vw;
     border-radius: 1.042vw;
   }
 
-  .sec05-info .map-wrapper .contact {
+  .feedback .map-wrapper .contact {
     width: 39.583vw;
     padding: 2.604vw;
     border-radius: 1.042vw;
@@ -870,13 +890,13 @@ a:hover {
     padding-top: 0.521vw;
   }
 
-  .sec05-info .contact-left {
+  .feedback .contact-left {
     float: none;
     width: 29.297vw;
     padding-bottom: 2.604vw;
   }
 
-  .sec05-info .contact-right {
+  .feedback .contact-right {
     float: none;
     width: 29.297vw;
   }
@@ -907,12 +927,18 @@ a:hover {
   }
 
   .feedback-wrapper form input,
-  .feedback-wrapper form input:focus {
+  .feedback-wrapper form textarea,
+  .feedback-wrapper form input:focus,
+  .feedback-wrapper form textarea {
     width: 40.755vw;
     margin-bottom: 4.167vw;
     padding: 1.042vw 2.604vw;
     font-size: 2.083vw;
     border-radius: 1.042vw;
+  }
+
+  .feedback-wrapper form textarea {
+    height: 4.688vw;
   }
 
   .feedback-wrapper form button {
@@ -970,7 +996,6 @@ a:hover {
 @media screen and (max-width: 767.9px) {
   body {
     font-size: 2.5vw;
-    max-width: 300vw;
   }
 
   .sec-btn {
@@ -1019,6 +1044,7 @@ a:hover {
     top: -153.125vw;
     left: 0;
     right: 0;
+    z-index: 99;
   }
 
   .main-sec .g-nav ul {
@@ -1049,6 +1075,7 @@ a:hover {
     top: 0.625vw;
     right: -0.703vw;
     cursor: pointer;
+    z-index: 99;
   }
 
   .main-sec .menu-toggle span {
@@ -1073,19 +1100,25 @@ a:hover {
   }
 
   .main-sec .menu-toggle.active {
+    position: fixed;
     transform: rotate(180deg);
     transition: 0.8s ease;
   }
 
   .main-sec .menu-toggle.active span:nth-child(1) {
+    top: -36px;
+    right: -29px;
     transform: translateY(2.344vw) rotate(-45deg);
   }
 
   .main-sec .menu-toggle.active span:nth-child(2) {
     opacity: 0;
+    transition: none;
   }
 
   .main-sec .menu-toggle.active span:nth-child(3) {
+    top: -6px;
+    right: -29px;
     transform: translateY(-2.344vw) rotate(45deg);
   }
 
@@ -1165,11 +1198,10 @@ a:hover {
     height: 2.188vw;
   }
 
-  /*Third Link Section(Mobile View)
-=================================== */
+  /*Third Link Section
+====================== */
   .sec03-link {
-    padding: 10.625vw 0 9.844vw;
-    border-bottom: 0.156vw solid #d9d9d9;
+    padding: 10.625vw 0 3.906vw;
   }
 
   .sec03-link .sec03-sub-ttl {
@@ -1179,32 +1211,30 @@ a:hover {
   }
 
   .sec03-link .sec03-list {
-    padding-top: 2.813vw;
-    width: 100%;
-    margin: 0 auto;
+    padding-top: 10vw;
+    width: 90.625vw;
   }
 
   .sec03-link .sec03-list li {
+    left: 10.156vw;
     float: none;
-    width: 100%;
+    width: 90%;
     margin: 0;
+    margin-bottom: 7.656vw;
+    font-size: 2.813vw;
+    line-height: 1.1;
   }
 
   .sec03-link .sec03-list li:nth-child(2n) {
     margin-right: 0;
-    width: 100%;
-  }
-
-  .sec03-link .sec03-list li p {
-    font-size: 2.813vw;
-    padding-left: 10.156vw;
-    line-height: 1.5;
+    width: 90%;
   }
 
   .sec03-link .sec03-list li::before {
     width: 6.25vw;
     height: 6.25vw;
-    top: 6.25vw;
+    top: -1.406vw;
+    left: -10.156vw;
   }
 
   /*Fourth Link Section
@@ -1236,6 +1266,7 @@ a:hover {
   .sec04-link .sec04-list li .sec04-txt01 {
     padding-top: 5.781vw;
     font-size: 1.875vw;
+    letter-spacing: 0.094vw;
   }
 
   .sec04-link .sec04-list li .sec04-txt02 {
@@ -1247,7 +1278,7 @@ a:hover {
   /* Fith Link Section
 ======================== */
   .sec05-link {
-    padding: 10.313vw 0 12.5vw;
+    padding: 10.313vw 0 9.375vw;
   }
 
   .sec05-link .sec05-list {
@@ -1292,21 +1323,21 @@ a:hover {
 
   /*Map and Feedback
 =================== */
-  .sec05-info {
-    padding-top: 6.563vw;
+  .feedback {
+    padding: 9.688vw 0 12.656vw;
   }
 
-  .sec05-info .map-wrapper {
+  .feedback .map-wrapper {
     float: none;
   }
 
-  .sec05-info .map-wrapper iframe {
+  .feedback .map-wrapper iframe {
     margin: 0 auto;
     width: 89.063vw;
     height: 53.594vw;
   }
 
-  .sec05-info .map-wrapper .contact {
+  .feedback .map-wrapper .contact {
     width: 81.875vw;
     bottom: 2.5vw;
     left: 4.688vw;
@@ -1325,16 +1356,15 @@ a:hover {
     padding-top: 0.313vw;
   }
 
-  .sec05-info .contact-left {
+  .feedback .contact-left {
     float: left;
     text-align: start;
     width: 37.969vw;
     padding-top: 0.938vw;
   }
 
-  .sec05-info .contact-right {
+  .feedback .contact-right {
     float: right;
-    text-align: start;
     width: 35.156vw;
   }
 
@@ -1360,11 +1390,13 @@ a:hover {
   }
 
   .feedback-wrapper form {
-    padding-top: 4.531vw;
+    padding-top: 4.219vw;
   }
 
   .feedback-wrapper form input,
-  .feedback-wrapper form input:focus {
+  .feedback-wrapper form textarea,
+  .feedback-wrapper form input:focus,
+  .feedback-wrapper form textarea {
     width: 48.906vw;
     margin-bottom: 5vw;
     padding: 1.25vw 3.125vw;
@@ -1372,9 +1404,13 @@ a:hover {
     border-radius: 1.25vw;
   }
 
+  .feedback-wrapper form textarea {
+    height: 5.625vw;
+  }
+
   .feedback-wrapper form button {
     padding: 1.719vw 0;
-    margin-top: -0.781vw;
+    margin-top: -0.625vw;
   }
 
   /*Footer Section
