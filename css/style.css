@@ -610,7 +610,7 @@ a:hover {
     width: 5.599vw;
     height: 4.167vw;
     top: 0.521vw;
-    right: -1px;
+    right: -0.13vw;
     cursor: pointer;
     z-index: 99;
   }
@@ -643,8 +643,8 @@ a:hover {
   }
 
   .main-sec .menu-toggle.active span:nth-child(1) {
-    top: -37px;
-    right: -44px;
+    top: -4.818vw;
+    right: -5.729vw;
     transform: translateY(1.953vw) rotate(-45deg);
   }
 
@@ -654,8 +654,8 @@ a:hover {
   }
 
   .main-sec .menu-toggle.active span:nth-child(3) {
-    top: -7px;
-    right: -43px;
+    top: -0.911vw;
+    right: -5.599vw;
     transform: translateY(-1.953vw) rotate(45deg);
   }
 
@@ -1106,8 +1106,8 @@ a:hover {
   }
 
   .main-sec .menu-toggle.active span:nth-child(1) {
-    top: -36px;
-    right: -29px;
+    top: -5.625vw;
+    right: -4.531vw;
     transform: translateY(2.344vw) rotate(-45deg);
   }
 
@@ -1117,8 +1117,8 @@ a:hover {
   }
 
   .main-sec .menu-toggle.active span:nth-child(3) {
-    top: -6px;
-    right: -29px;
+    top: -0.938vw;
+    right: -4.531vw;
     transform: translateY(-2.344vw) rotate(45deg);
   }
 
