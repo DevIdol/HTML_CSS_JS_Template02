@@ -713,7 +713,7 @@ a:hover {
 
   .sec02-link .sec02-content .learn-more {
     padding-top: 4.167vw;
-    letter-spacing: 0.091vw;
+    letter-spacing: 0.13vw;
   }
 
   .sec02-link .sec02-content .learn-more span {
@@ -794,11 +794,11 @@ a:hover {
   .sec04-link .sec04-list li .sec04-txt01 {
     padding-top: 4.818vw;
     font-size: 1.563vw;
-    letter-spacing: 0.078vw;
+    letter-spacing: 0.13vw;
   }
 
   .sec04-link .sec04-list li .sec04-txt02 {
-    padding-top: 6px;
+    padding-top: 0.781vw;
     font-size: 2.083vw;
     font-weight: 700;
   }
@@ -806,7 +806,7 @@ a:hover {
   /* Fith Link Section
 ===================== */
   .sec05-link {
-    padding: 11.133vw 0 3.646vw;
+    padding: 11.198vw 0 3.646vw;
   }
 
   .sec05-link .sec05-list {
@@ -914,7 +914,7 @@ a:hover {
   }
 
   .feedback-wrapper h4 {
-    letter-spacing: 0.078vw;
+    letter-spacing: 0.091vw;
     font-size: 4.557vw;
     font-weight: 500;
   }
@@ -1010,7 +1010,8 @@ a:hover {
   .sec-btn:hover {
     border: 0.156vw solid #ff8364;
   }
-  .pc-view{
+
+  .pc-view {
     display: none;
   }
 
@@ -1077,7 +1078,7 @@ a:hover {
     width: 6.719vw;
     height: 5.156vw;
     top: 0.625vw;
-    right: -0.703vw;
+    right: -0.625vw;
     cursor: pointer;
     z-index: 99;
   }
@@ -1271,7 +1272,7 @@ a:hover {
   .sec04-link .sec04-list li .sec04-txt01 {
     padding-top: 5.781vw;
     font-size: 1.875vw;
-    letter-spacing: 0.094vw;
+    letter-spacing: 0.156vw;
   }
 
   .sec04-link .sec04-list li .sec04-txt02 {
@@ -1386,7 +1387,7 @@ a:hover {
   }
 
   .feedback-wrapper h4 {
-    letter-spacing: 0.094vw;
+    letter-spacing: 0.109vw;
     font-size: 5.469vw;
   }
 
