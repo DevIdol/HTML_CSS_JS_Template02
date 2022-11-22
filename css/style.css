@@ -685,7 +685,7 @@ a:hover {
 =================================== */
 
   .sec02-link {
-    padding: 11.068vw 0 10.156vw;
+    padding: 11.068vw 0 10.547vw;
   }
 
   .sec02-link .sec02-content {
@@ -705,9 +705,10 @@ a:hover {
   }
 
   .sec02-link .sec02-content img {
-    margin-top: 9.245vw;
     float: none;
     width: 72.396vw;
+    margin: 0 auto;
+    margin-top: 9.245vw;
   }
 
   .sec02-link .sec02-content .learn-more {
@@ -728,7 +729,7 @@ a:hover {
   /*Third Link Section
 ====================== */
   .sec03-link {
-    padding: 11.458vw 0 3.646vw;
+    padding: 11.458vw 0 3.516vw;
   }
 
   .sec03-link .sec03-sub-ttl {
@@ -779,7 +780,7 @@ a:hover {
   .sec04-link .sec04-list li {
     border-radius: 1.042vw;
     padding-bottom: 4.427vw;
-    margin: 0 5.208vw 5.078vw 0;
+    margin: 0 5.208vw 4.948vw 0;
   }
 
   .sec04-link .sec04-list li:nth-child(2n) {
@@ -797,7 +798,7 @@ a:hover {
   }
 
   .sec04-link .sec04-list li .sec04-txt02 {
-    padding-top: 0.651vw;
+    padding-top: 6px;
     font-size: 2.083vw;
     font-weight: 700;
   }
@@ -805,12 +806,12 @@ a:hover {
   /* Fith Link Section
 ===================== */
   .sec05-link {
-    padding: 10.938vw 0 3.646vw;
+    padding: 11.133vw 0 3.646vw;
   }
 
   .sec05-link .sec05-list {
     width: 100%;
-    padding-top: 4.818vw;
+    padding-top: 4.557vw;
   }
 
   .sec05-link .sec05-list li {
@@ -862,7 +863,7 @@ a:hover {
   /*Map and Feedback
   =================== */
   .feedback {
-    padding: 10.286vw 0 10.547vw;
+    padding: 10.417vw 0 10.156vw;
     border-bottom: 0.13vw solid #d9d9d9;
   }
 
@@ -949,7 +950,7 @@ a:hover {
   /*Footer Section
 ================= */
   .footer {
-    padding: 8.724vw 0 4.557vw;
+    padding: 8.984vw 0 4.557vw;
   }
 
   .footer .footer-logo {
@@ -1008,6 +1009,9 @@ a:hover {
 
   .sec-btn:hover {
     border: 0.156vw solid #ff8364;
+  }
+  .pc-view{
+    display: none;
   }
 
   .mb-view {
@@ -1158,7 +1162,7 @@ a:hover {
 ===================================== */
 
   .sec02-link {
-    padding: 6.563vw 0 9.063vw;
+    padding: 6.563vw 0 9.375vw;
   }
 
   .sec02-link .sec02-content {
@@ -1178,9 +1182,10 @@ a:hover {
   }
 
   .sec02-link .sec02-content img {
-    margin-top: 8.594vw;
     float: none;
     width: 86.875vw;
+    margin: 0 auto;
+    margin-top: 8.594vw;
   }
 
   .sec02-link .sec02-content .learn-more {
@@ -1201,7 +1206,7 @@ a:hover {
   /*Third Link Section
 ====================== */
   .sec03-link {
-    padding: 10.625vw 0 3.906vw;
+    padding: 10.469vw 0 4.063vw;
   }
 
   .sec03-link .sec03-sub-ttl {
@@ -1252,7 +1257,7 @@ a:hover {
   .sec04-link .sec04-list li {
     border-radius: 1.094vw;
     padding-bottom: 5.313vw;
-    margin: 0 6.25vw 6.094vw 0;
+    margin: 0 6.25vw 5.938vw 0;
   }
 
   .sec04-link .sec04-list li:nth-child(2n) {
@@ -1270,7 +1275,7 @@ a:hover {
   }
 
   .sec04-link .sec04-list li .sec04-txt02 {
-    padding-top: 0.781vw;
+    padding-top: 0.938vw;
     font-size: 2.5vw;
     font-weight: 700;
   }
@@ -1322,9 +1327,9 @@ a:hover {
   }
 
   /*Map and Feedback
-=================== */
+====================== */
   .feedback {
-    padding: 9.688vw 0 12.656vw;
+    padding: 9.688vw 0 12.5vw;
   }
 
   .feedback .map-wrapper {
@@ -1365,7 +1370,7 @@ a:hover {
 
   .feedback .contact-right {
     float: right;
-    width: 35.156vw;
+    width: 34.844vw;
   }
 
   .contact-right .email {
